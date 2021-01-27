@@ -1,16 +1,29 @@
 {% extends 'pages/base.html' %}
 {% load static %}
 {% block content %}
-<h1>Nathan Ortiz</h1>
 
-<p>Nathan is a 25-year-old student in the Full Stack Development Immersive program at San Diego Global Knowledge University. He has had no previous experience or education in the computer science/tech field. His hobbies include:
-    <ul>
-        <li> Watching anime</li>
-        <li>Writing</li>
-        <li>Playing music</li>
-        <li>Space Exploration</li>
-    </ul>
-</p>
+<html>
+    <head>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    </head> 
+    <body>
+        <h1><bold>Nathan Ortiz</bold></h1>
 
-<img src="{% static 'pages/hubble.jpg' %}" alt="Hubble telescope in space">
+        <p>Nathan is a 25-year-old student in the Full Stack Development Immersive program at San Diego Global Knowledge University. He has had no previous experience, education, or tinkering in the computer science/tech field (he is just very impulsive). His hobbies include:
+            <ul>
+                <li>Space Exploration</li>
+                <li>Watching anime</li>
+                <li>Writing</li>
+                <li>Playing music</li>
+                <li>Space Exploration</li>
+            </ul>
+        </p>
+
+        <img src="{% static 'pages/spacequote.jpg' %}" alt="Hubble telescope in space">
 {% endblock content %}
+    </body>
+</html>

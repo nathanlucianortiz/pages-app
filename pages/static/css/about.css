@@ -1,0 +1,20 @@
+h1 {
+  color: rgb(102, 33, 33);
+}
+body {
+  padding-left: 2rem;
+  background-image: url("https://i2.wp.com/wallur.com/wp-content/uploads/2016/12/silence-space-background-12.png?fit=1920%2C1080");
+  background-position: center;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 20px;
+}
+p {
+  width: 50%;
+  color: white;
+}
+ul {
+  color: white;
+}
+img {
+  height: 250px;
+}

@@ -1,0 +1,14 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/7e/b5/66/7eb56628db275d370a63c08a01da7034.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 20px;
+  padding-left: 2rem;
+}
+h1 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 440px;
+}
